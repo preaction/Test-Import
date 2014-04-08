@@ -18,12 +18,16 @@ my %module_build_args = (
     "Doug Bell <preaction\@cpan.org>"
   ],
   "dist_name" => "Test-Import",
-  "dist_version" => "0.002",
+  "dist_version" => "0.003",
   "license" => "perl",
   "module_name" => "Test::Import",
   "recommends" => {},
   "recursive_test_files" => 1,
-  "requires" => {},
+  "requires" => {
+    "Capture::Tiny" => 0,
+    "Test::Builder::Module" => 0,
+    "Test::More" => 0
+  },
   "script_files" => [],
   "test_requires" => {
     "Test::Compile" => 0,
