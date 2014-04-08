@@ -2,7 +2,7 @@ NAME
     Test::Import - Test functions to ensure modules import things
 
 VERSION
-    version 0.003
+    version 0.004
 
 SYNOPSIS
         use Test::Import qw( :all );
@@ -38,6 +38,9 @@ EXPORTED FUNCTIONS
 
   does_import_class 'My::Module', 'Imported::Class'
     Ensure that My::Module loads Imported::Class.
+
+SEE ALSO
+    *   Test::Exports
 
 AUTHOR
     Doug Bell <preaction@cpan.org>

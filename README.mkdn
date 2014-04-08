@@ -4,7 +4,7 @@ Test::Import - Test functions to ensure modules import things
 
 # VERSION
 
-version 0.003
+version 0.004
 
 # SYNOPSIS
 
@@ -47,6 +47,10 @@ namespace.
 ## does\_import\_class 'My::Module', 'Imported::Class'
 
 Ensure that My::Module loads Imported::Class.
+
+# SEE ALSO
+
+- [Test::Exports](http://search.cpan.org/perldoc?Test::Exports)
 
 # AUTHOR
 
