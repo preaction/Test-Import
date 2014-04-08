@@ -2,7 +2,7 @@ NAME
     Test::Import - Test functions to ensure modules import things
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         use Test::Import qw( :all );
