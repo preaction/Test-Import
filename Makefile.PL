@@ -22,12 +22,16 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Test::Import",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "Capture::Tiny" => 0,
+    "Test::Builder::Module" => 0,
+    "Test::More" => 0
+  },
   "TEST_REQUIRES" => {
     "Test::Compile" => 0,
     "Test::Most" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
