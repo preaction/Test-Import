@@ -134,3 +134,13 @@ This module encapsulates a bunch of tests for testing base or boilerplate
 modules (e.g. modules that use Import::Into to force things into the calling
 namespace). These tests ensure that the base module imports what it says it
 imports.
+
+=head1 SEE ALSO
+
+=over 4
+
+=item *
+
+L<Test::Exports>
+
+=back
